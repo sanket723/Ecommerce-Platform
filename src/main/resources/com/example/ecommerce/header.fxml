@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<?import javafx.scene.control.Label?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommerce.headerController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#107fe6" height="100.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <TextField fx:id="searchtext" layoutX="34.0" layoutY="37.0" promptText="Search" />
+      <Button layoutX="198.0" layoutY="37.0" mnemonicParsing="false" text="Search" onMouseClicked="#search" />
+      <Button fx:id="loginButton" layoutX="334.0" layoutY="37.0" mnemonicParsing="false" text="Login" onMouseClicked="#login"/>
+      <Label fx:id="email" layoutX="300.0" layoutY="54.0"></Label>
+      <Label fx:id="user" layoutX="300" layoutY="37" > </Label>
+      <Button fx:id="logoutButton" layoutX="406.0" layoutY="36.0" mnemonicParsing="false" text="Logout" onMouseClicked="#logout" />
+      <Button fx:id="signupButton" layoutX="406.0" layoutY="36.0" mnemonicParsing="false" text="Signup" onMouseClicked="#signup"/>
+   </children>
+</AnchorPane>
